@@ -1,0 +1,546 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+::-webkit-input-placeholder,
+:-ms-input-placeholder,
+::-moz-placeholder,
+:-moz-placeholder { 
+    color: #eee;
+    opacity: 1;
+}
+
+:focus {
+	outline: none;
+}
+
+body {
+	font: 18px "lexia",serif;
+	font-style: normal;
+	font-weight: 100;
+	margin: 0 0 140px 0;
+}
+
+p {
+	font: 18px "omnes-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+label {
+	font: 18px "omnes-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	display: block;
+}
+
+input {
+	font: 18px "omnes-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+	-webkit-appearance: none;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "lexia",serif;
+	font-style: normal;
+	font-weight: 100;
+}
+
+h1 {
+	font: 178px "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 a,
+h1 a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+h3 {
+	font: 48px "omnes-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+
+h3 a {
+	text-decoration: none;
+}
+
+h5 {
+	color: #fff;
+}
+
+a {
+	color: #523762;
+}
+
+a:hover {
+	color: #24182c;
+}
+
+/* HEADER */
+
+header {
+	background: #523762;
+	min-height: 440px;
+}
+
+header hgroup {
+	width: 100%;
+	float: none;
+	margin: 120px 0 0 0;
+}
+
+header nav {
+	float: right;
+	margin: 10px 0 0 0;
+	overflow: hidden;
+}
+
+header nav ul {
+	text-align: right;
+	float: right;
+	width: 100%;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	text-align: center;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	border-bottom: 1px solid #523762;
+}
+
+header nav ul li a:hover {
+	color: #fff;
+	border-bottom: 1px solid #24182c;
+}
+
+header nav ul li a.register {
+	text-align: right;
+}
+
+strong, table, tr, td, tr, th {
+	font-weight: 100;
+}
+
+.wrapper {
+	width: 960px;
+	max-width: 100%;
+	margin: 0px auto 60px;
+	overflow: hidden;
+} 
+
+/* NAVIGATION */
+
+ul.nav {
+	border: 1px solid #eee;
+	border-radius: 3px;
+	overflow: hidden;
+	margin: 0 0 30px 0;
+}
+
+ul.nav li {
+	width: 50%;
+	float: left;
+}
+
+ul.nav li:last-of-type a {
+	text-align: right;
+	border-left: 1px solid #eee;
+}
+
+ul.nav li a {
+	font: 18px "omnes-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+}
+
+ul.nav li a:hover {
+	background: #523762;
+	color: #fff;
+}
+
+/* TABLE */
+
+ul.row {
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+	display: table; 
+	width: 100%;
+}
+
+ul.row li {
+	width: 10%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	font: 18px "omnes-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: table-cell;
+}
+
+ul.row.r10 li {
+	width: 10%;
+	padding: 10px 0;
+}
+
+ul.row.r9 li {
+	width: 11%;
+	padding: 10px 0;
+}
+
+ul.row.r9 li input {
+	width: 90%;
+}
+
+ul.row.r8 li {
+	width: 12%;
+	padding: 10px 0;
+}
+
+ul.row.r5 li {
+	width: 19%;
+	padding: 10px 0;
+}
+
+ul.row.r5 li input {
+	width: 90%;
+}
+
+ul.row.r4 li {
+	width: 24%;
+	padding: 10px 0;
+}
+
+ul.row.r4 li input {
+	width: 90%;
+}
+
+ul.row.r3 li {
+	width: 33%;
+	padding: 10px 0;
+}
+
+ul.row.r2 li {
+	width: 50%;
+	padding: 10px 0;
+}
+
+ul.row li input {
+	width: 45px;
+	padding: 0 3px;
+	border: 1px solid #eee;
+}
+
+ul.row.r10 li:nth-child(1) {
+	text-align: left;
+}
+
+ul.row.r10 li:nth-child(2) {
+	text-align: left;
+}
+
+
+li.hide {
+	display: none !important;
+}
+
+span {
+	color: #eee;
+}
+
+/* ROW HOLIDAYS */
+
+ul.row.holidays li {
+	width: 40%;
+	padding: 10px;
+	float: left;
+	text-align: left;
+	font: 18px "omnes-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: table-cell;
+}
+
+ul.row.holidays li input {
+	width: 80%;
+}
+
+/* BUTTONS */
+
+input[type="submit"] {
+	background: #523762;
+	border: 0;
+	border-radius: 3px;
+	padding: 10px 30px;
+	text-align: center;
+	margin: 20px 0 0 0;
+	font: 18px "omnes-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #fff;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+}
+
+/* DATE PICKER */
+
+.hasDatepicker {
+	background: #fff;
+	width: 100%;
+}
+
+.ui-widget-header {
+	border-bottom: 1px solid #eee;
+}
+
+.ui-widget-header a {
+	color: #333;
+}
+
+table.ui-datepicker-calendar {
+	width: 100%;
+}
+
+td.ui-datepicker-unselectable {
+	text-align: center;
+}
+
+td.ui-state-disabled .ui-state-default,
+td.ui-datepicker-unselectable .ui-state-default {
+	background: #eee !important;
+}
+
+tr th span {
+	color: #333 !important;
+}
+
+.ui-datepicker-buttonpane {
+	display: none;
+}
+
+.ui-datepicker th {
+	padding: 3px;
+	text-align: center;
+	font-weight: normal;
+	border: 0;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border: 1px solid #eee;
+	background: #fff;
+	font-weight: normal;
+	color: #333;
+	display: block;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	border: 1px solid #eee;
+	background: #523762;
+	font-weight: normal;
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+a.ui-state-default {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+a.ui-state-highlight {
+	background: #eee;
+	color: #333;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: 10px;
+	cursor: pointer;
+	padding: 5px 20px;
+	text-align: center;
+	width: auto;
+	overflow: visible;
+	background: #523762;
+	color: #fff;
+	border: 0;
+	text-transform: uppercase;
+}
+
+.ui-widget-content {
+	border: 1px solid #eee;
+	padding: 20px;
+	background: #fff;
+	font: 18px "omnes-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	width: 300px;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding:  0 0 10px;
+	margin: 0 0 10px 0;
+	background: #fff;
+}
+
+a.ui-datepicker-prev {
+	width: 50%;
+	float: left;
+	background: #fff;
+}
+
+a.ui-datepicker-next {
+	width: 50%;
+	float: left;
+	text-align: right;
+	background: #fff;
+}
+
+a.ui-datepicker-prev span,
+a.ui-datepicker-next span {
+	color: #333 !important;
+}
+
+.ui-datepicker-title {
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	background: #523762;
+	color: #fff;
+	margin: 10px 0 0 0;
+}
+
+/* LOGIN FORM */
+
+ul.form  {
+	width: 25%;
+	margin: 0px auto;
+}
+
+ul.form li input {
+	border: 1px solid #eee;
+	width: 95%;
+	padding: 5px;
+	text-transform: inherit;
+	text-align: center;
+}
+	
+ul.form li.username input {
+	border-bottom: 0;
+	border-radius: 0;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-radius: 0;
+}
+
+ul.form li.pin input {
+	border-radius: 0;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+ul.form li input[type="submit"] {
+	border: 0;
+	padding: 5px 10px;
+	text-align: center;
+	border: 0;
+	width: 100%;
+}
+
+a.center {
+	display: block;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+/* REGISTER */
+
+ul.form.register  {
+	width: 25%;
+	margin: 0px auto;
+}
+
+ul.form.register li input {
+	border: 1px solid #eee;
+	border-bottom: 0;
+	width: 95%;
+	padding: 5px;
+	text-transform: inherit;
+	text-align: center;
+	border-radius: 0;
+}
+
+ul.form.register li.uname input {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+ul.form.register li.pin input {
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom: 1px solid #eee;
+}
+
+ul.form.register li input[type="submit"] {
+	border: 0;
+	padding: 5px 10px;
+	text-align: center;
+	border: 0;
+	width: 100%;
+}
+
+/* NOTES */
+
+.note {
+	background: #523762;
+	color: #fff;
+	width: 25%;
+	padding: 20px;
+	margin: 0px auto 20px;
+	text-align: center;
+}
+
+.note a {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+}

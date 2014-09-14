@@ -1,0 +1,23 @@
+a {
+	text-decoration: none;
+}
+
+header {
+	display: none;
+}
+
+h3 {
+	display: none;
+}
+
+.column {
+	display: none;
+}
+
+ul.nav {
+	display: none;
+}
+
+ul.row.r10 li {
+	padding: 0 !important;
+}

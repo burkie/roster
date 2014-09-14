@@ -1,0 +1,118 @@
+h1 {
+	font: 68px "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+header {
+	background: #523762;
+	min-height: inherit;
+}
+
+header nav ul li {
+	float: left;
+	width: 33%;
+}
+
+header hgroup {
+	margin: 20px 0 0 0;
+}
+
+/* NAV */
+
+ul.nav {
+	margin: 0px auto;
+	width: 90%;
+}
+
+ul.nav li a {
+	padding: 10px;
+}
+
+/* FORMS */
+
+ul.form {
+	width: 80%;
+	margin: 0px auto;
+}
+
+ul.form.register  {
+	width: 80%;
+	margin: 0px auto;
+}
+
+ul.form li input {
+	width: 99.5%;
+	padding: 5px 0;
+}
+
+/* ROWS */
+
+ul.row.r9 li,
+ul.row.r8 li,
+ul.row.r4 li,
+ul.row.r3 li,
+ul.row.r2 li {
+	width: 33%;
+	padding: 10px 0;
+}
+
+ul.row li input {
+	width: 80%;
+} 
+
+/* MOBILE */
+
+ul.row {
+	padding: 10px 0 !important;
+}
+
+ul.row.r10 li {
+	width: 32%;
+}
+
+ul.row input {
+	text-align: center;
+}
+
+ul.row:first-of-type {
+	background: #fff !important;
+}
+
+ul.row:nth-child(odd) {
+	background: #ffffff;
+}
+
+ul.row:nth-child(even) {
+	background: #ffffff;
+}
+
+/* NOTE */
+
+.note {
+	width: 75%;
+}
+
+/* TABLE USER */
+
+.table.user ul.row.r8 {
+	width: 50%;
+	float: left;
+}
+
+.table.user ul.row.r10 li,
+.table.user ul.row.r8 li {
+	width: 100%;
+}
+
+.table.user ul.row.r10 li a,
+.table.user ul.row.r8 li a {
+	padding: 0;
+}

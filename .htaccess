@@ -1,0 +1,48 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^roster.so$ [NC]
+RewriteRule ^(.*)$ http://roster.so/$1 [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^q=(.*)$
+RewriteRule ^home$ /index.php
+
+RewriteRule ^register$ /register.php
+
+RewriteRule ^request$ /request.php
+
+RewriteRule ^forgot$ /forgot.php
+
+RewriteRule ^holidays$ /holidays/index.php
+RewriteRule ^holidays/edit$ /holidays/edit.php
+
+RewriteRule ^create/$ /create/index.php
+RewriteRule ^create/week/([-0-9a-z]+)$ /create/week.php?week=$1
+
+RewriteRule ^edit$ /edit/index.php
+RewriteRule ^edit/week/([-0-9a-z]+)$ /edit/week.php?week=$1
+
+
+RewriteRule ^staff/$ /staff/index.php
+RewriteRule ^staff/add$ /staff/add.php
+RewriteRule ^staff/edit/staff$ /staff/editstaff.php
+RewriteRule ^staff/([0-9]+)$ /staff/index.php?user_id=$1
+RewriteRule ^staff/([-0-9a-z]+)/week/([-0-9a-z]+)$ /staff/week.php?user_id=$1&week=$2
+
+RewriteRule ^staff/edit$ /staff/editstaff.php
+RewriteRule ^staff/([-0-9a-z]+)/edit$ /staff/edit.php?user_id=$1
+
+RewriteRule ^user/([0-9]+)$ /user.php?user_id=$1
+
+RewriteRule ^week/(.*) /week.php?week=$1
+
+RewriteRule ^position$ /position/index.php
+RewriteRule ^position/([-0-9a-z]+)$ /position/index.php?position=$1
+RewriteRule ^position/([-0-9a-z]+)/edit$ /position/edit.php?position=$1
+RewriteRule ^position/([-0-9a-z]+)/week/([-0-9a-z]+)$ /position/week.php?position=$1&week=$2
+RewriteRule ^position/([-0-9a-z]+)/week/([-0-9a-z]+)/edit$ /position/editweek.php?position=$1&week=$2
+
+RewriteRule ^clean$ /clean.php
+
+RewriteRule ^exit$ /exit.php
+
+RewriteRule ^manage$ /manage/index.php
+RewriteRule ^manage/week/([-0-9a-z]+)$ /manage/index.php?week=$1
